@@ -6,7 +6,9 @@
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url https://github.com/Vinoth-KR/PACMAN-vannila-JS.git",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
