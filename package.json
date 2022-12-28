@@ -23,5 +23,7 @@
       "@babel/plugin-transform-runtime"
     ]
   },
-  "dependencies": {}
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
